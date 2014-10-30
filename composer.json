@@ -1,0 +1,21 @@
+{
+    "name": "itma/yii2-rss",
+    "description": "It allows you to convert multple RSS channels into one Json array",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","rss"," json"],
+    "license": "LGPL-3.0+",
+    "authors": [
+        {
+            "name": "Andrzej Bernat",
+            "email": "andrew@itma.pl"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "itma\\rss\\": ""
+        }
+    }
+}
